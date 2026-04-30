@@ -113,7 +113,7 @@ clone_repo() {
         popd >/dev/null
     else
         print_info "Cloning dotfiles repository."
-        if git clone --depth=10 https://github.com/retrilzzy/dotfiles.git "$DOTFILES_DIR"; then
+        if git clone --depth=10 https://github.com/Bronhial/dotfiles.git "$DOTFILES_DIR"; then
             print_success "Dotfiles cloned."
         else
             print_error "Failed to clone dotfiles."
