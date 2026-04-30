@@ -344,8 +344,8 @@ setup_wallpapers() {
     print_success "Downloaded $downloaded_count wallpapers to $WALLPAPER_DIR"
 
     mkdir -p "$HOME/.local/share/color-schemes"
-    if "$HOME/.config/bin/change-wall.sh" "$WALLPAPER_DIR"; then
-        print_success "Wallpaper and theme set."
+if "$HOME/.config/bin/change-wall.sh" "$WALLPAPER_DIR" <<< ''; then
+    print_success "Wallpaper and theme set."
     else
         print_warning "Failed to set wallpaper. You can do it manually later."
     fi
