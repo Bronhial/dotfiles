@@ -73,7 +73,7 @@
 1. Запуск [скрипта установки](./Scripts/install.sh):
 
    ```
-   curl https://raw.githubusercontent.com/retrilzzy/dotfiles/refs/heads/main/Scripts/install.sh | bash
+   curl https://raw.githubusercontent.com/Bronhial/dotfiles/refs/heads/main/Scripts/install.sh | bash
    ```
 
    - Установит [необходимые пакеты](#зависимости).
@@ -125,7 +125,7 @@
 | `waybar`   | Wayland бар                       |
 | `waypaper` | Управление обоями                 |
 | `wlogout`  | Меню выхода из системы            |
-| `swww`     | Демон обоев                       |
+| `awww`     | Демон обоев                       |
 | `zsh`      | Командная оболочка                |
 
 </details>
@@ -637,7 +637,7 @@ yay -S waypaper
 Для статичных изображений и gif (необходим):
 
 ```
-sudo pacman -S swww
+sudo pacman -S awww
 ```
 
 Для видео (опционально):
