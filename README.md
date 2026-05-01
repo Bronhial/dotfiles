@@ -73,7 +73,7 @@
 1. Run the [installation script](./Scripts/install.sh):
 
    ```
-   curl https://raw.githubusercontent.com/retrilzzy/dotfiles/refs/heads/main/Scripts/install.sh | bash
+   curl https://raw.githubusercontent.com/Bronhial/dotfiles/refs/heads/main/Scripts/install.sh | bash
    ```
 
    - Installs the [necessary packages](#dependencies).
@@ -125,7 +125,7 @@ Packages installed by [`install.sh`](./Scripts/install.sh).
 | `waybar`   | Wayland status bar           |
 | `waypaper` | Wallpaper manager            |
 | `wlogout`  | Logout menu                  |
-| `swww`     | Wallpaper daemon             |
+| `awww`     | Wallpaper daemon             |
 | `zsh`      | Command shell                |
 
 </details>
@@ -638,7 +638,7 @@ yay -S waypaper
 For static images and gifs (required):
 
 ```
-sudo pacman -S swww
+sudo pacman -S awww
 ```
 
 For videos (optional):
